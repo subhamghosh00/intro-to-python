@@ -3,29 +3,58 @@
 ## Section A
 # 1. Write a function that prints your name
 
+# def print_name():
+#   print(name)
+# name="Subham"
+# print_name()
 
 
 # 2. Write a function that accepts a name as a parameter and prints "Hello, <name>".
 
+def print_name(name):
+
+   print("Hello "+ name )
+
+# print_name(input("Enter a name: "))
 
 
 # 3. Loop through the list ["Alice", "Bob", "Charlie"] and call the function you just wrote.
 
+# names = ["Alice","Bob", "Charlie"]
+# for name in names:
+#   print_name(name)
 
 
 # 4. Write a function that prints the area of two passed in parameters.
+# def area (x,y):
+#   print("Area = ", x*y)
 
+# area(6,36)
 
 
 # 5. Write a function called 'print_list' that accepts a list as a parameter and then prints out each item of the list.
 
-
+# def print_list(list):
+#   for item in list:
+#     print(item)
+# print_list(["apple", "banana" , "butter"])
 
 # 6. Put the following into a function that accepts age as a parameter:
 #     1. If they are younger than 11, print "You're too young to go to this school".
 #     2. If they are between 11 and 16, print "You can can come to this school".
 #     3. If they are over 16, print 'You're too old for school".
 #     4. If they are 0, print "You're not born yet!".
+# def age(x):
+#   if (x<=0):
+#     print("you are not born yet")
+#   elif(x<=11):
+#       print("You are too young for school")
+#   elif(x>11 and x<=16):
+#       print("You can can come to this school")
+#   elif(x>16):
+#       print("you are too old for school")
+
+# age(int(input("Enter your age: ")))
 
 
 
@@ -39,6 +68,9 @@
 
 # 2. Write a function that accepts a word and returns it backwards, e.g. 'hello' -> 'olleh'.
 
+def reverse_string(x):
+  
+    
 
 
 # 3. Write a recursive function that accepts a number and prints that number of stars, followed by ever decreasing stars on each line, E.g:

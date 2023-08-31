@@ -3,12 +3,21 @@
 ## Section A
 # 1. Print 10 random numbers.
 
-
+# import random
+# for i in range(10):
+#   print(random.randint(1,100))
 
 # 2. Keep asking the user to enter a number until they enter the number 7, then print "Wow lucky number 7!".
 #     - Rewrite so that the number being guessed is a random value from 1 to 10 instead of number 7 .
 
+i = int(input("Enter a number: "))
 
+while i!= math.randint(10):
+  i=int(input("Enter a number: "))
+  
+print("Wow  lucky number 7!")
+
+ 
 
 # 3. The area of a rectangle is width multiplied by height. Ask the user to enter a width and height in cm, then print the area to the whole square metre. 
 #   E.g. 240cm x 80cm = 19200cm2 = 2m2.

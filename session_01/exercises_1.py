@@ -63,3 +63,10 @@ print(67%12)
 # print(x*y*z)
 
 print((4-2)*6/3*5)
+
+first_name = "Steve"
+last_name = "Shirley"
+full_name = first_name + " " + last_name
+
+print("Good Morning, " + full_name)
+
